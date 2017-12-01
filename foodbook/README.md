@@ -2,7 +2,7 @@
 
 Title:​ FoodBook
 Team​ ​Members:​ Daniel Vazquez, Megan Nguyen, Stefano Yturralde
-Demo​ ​Link:​ railsdecal.com
+Demo​ ​Link:​ https://youtu.be/MS_NMwK_dJs
 Idea:​ ​An application where users can find randomly generated recipes that they can dislike or like. Liked recipes are saved in their cookbooks.
 Models​ ​and​ ​Description:
 User
