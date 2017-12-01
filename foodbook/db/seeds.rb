@@ -5,3 +5,24 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Recipe.create(dish: Faker::Food.dish, instructions:"Ingredients-"+
+	Faker::Food.ingredient  + ", " +  Faker::Food.measurement + "," + Faker::Food.metric_measurement + 
+	':' + Faker::Food.ingredient  + ", " +  Faker::Food.measurement + ':' + Faker::Food.ingredient  + ", " +  Faker::Food.measurement)
+
+Recipe.create(dish: Faker::Food.dish, instructions:"Ingredients-"+
+	Faker::Food.ingredient  + ", " +  Faker::Food.measurement + "," + Faker::Food.metric_measurement + 
+	':' + Faker::Food.ingredient  + ", " +  Faker::Food.measurement + ':' + Faker::Food.ingredient  + ", " +  Faker::Food.measurement)
+
+Recipe.create(dish: Faker::Food.dish, instructions:"Ingredients-"+
+	Faker::Food.ingredient  + ", " +  Faker::Food.measurement + "," + Faker::Food.metric_measurement + 
+	':' + Faker::Food.ingredient  + ", " +  Faker::Food.measurement + ':' + Faker::Food.ingredient  + ", " +  Faker::Food.measurement )
+
+Recipe.create(dish: Faker::Food.dish, instructions:"Ingredients-"+
+	Faker::Food.ingredient  + ", " +  Faker::Food.measurement + "," + Faker::Food.metric_measurement + 
+	':' + Faker::Food.ingredient  + ", " +  Faker::Food.measurement + ':' + Faker::Food.ingredient  + ", " +  Faker::Food.measurement )
+
+Recipe.create(dish: Faker::Food.dish, instructions:"Ingredients-"+
+	Faker::Food.ingredient  + ", " +  Faker::Food.measurement + "," + Faker::Food.metric_measurement + 
+	':' + Faker::Food.ingredient  + ", " +  Faker::Food.measurement + ':' + Faker::Food.ingredient  + ", " +  Faker::Food.measurement )
+

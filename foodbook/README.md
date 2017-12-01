@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Title:​ FoodBook
+Team​ ​Members:​ Daniel Vazquez, Megan Nguyen, Stefano Yturralde
+Demo​ ​Link:​ railsdecal.com
+Idea:​ ​An application where users can find randomly generated recipes that they can dislike or like. Liked recipes are saved in their cookbooks.
+Models​ ​and​ ​Description:
+User
+● has email, password
+● have a cookbook
+Cookbook
+● contains recipes and belongs to User
+Recipes
+● has dish name and instructions and belongs to the cookbook of the user if saved
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Features:
+● Users can log in
+● Users can sign up
+● Users can dislike a recipe to refresh page for a new one
+● Recipes are randomly generated (via Faker gem)
+● Users can like a recipe to save it to their cookbook
+● Users can view their personal cookbook
+Division​ ​of​ ​Labor:
+● Daniel: Made controllers and routes
+● Megan: Made Bootstrap for views
+● Stefano: Made users

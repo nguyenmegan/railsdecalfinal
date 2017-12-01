@@ -1,0 +1,18 @@
+
+<div class="row">
+  <div class="col-md-4 offset-md-4 col-sm-12">
+<h1 class="center-text">Recipes</h1>
+<div class="card" style="width: 20rem;">
+  <img class="card-img-top" src="/assets/recipe-575434_960_720.png" alt="Food pic">
+  <div class="card-body">
+ 
+    <h4 class="card-title"> <%= @recipe.dish %> </h4>
+    <p class="card-text"> <%= @recipe.instructions %>.</p>
+    <button type="button" class="btn btn-danger" VALUE="Reload Page" onClick="history.go(0)">Dislike</button>
+    
+    <%= button_to "Like", save_path(id: @recipe), :class => "btn btn-success", :method => :patch %>
+
+  </div>
+</div>
+</div>
+</div>

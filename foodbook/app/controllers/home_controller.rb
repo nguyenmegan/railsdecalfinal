@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
 	def index
-		
-	end
+    free_recipe = Recipe.all
+    @recipe = free_recipe.sample
+  end
 end
